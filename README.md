@@ -58,7 +58,7 @@ The backend should now be running on http://localhost:5000.
 
 1. Navigate to the frontend directory:
    ```bash
-   cd ../frontend
+   cd ../rule-engine-ui
    ```
 
 2. Install dependencies:
