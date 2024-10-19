@@ -53,7 +53,6 @@ To use the API, start the server and send HTTP requests to the endpoints defined
     "rule_id": "generated rule ID"
   }
   ```
-  # Rule Engine API Documentation
 
 ## Combine Rules
 
