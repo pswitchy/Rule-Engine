@@ -13,7 +13,7 @@ A simple API for managing rules, including creating, combining, evaluating, upda
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/pswitchy/rule-engine-api.git
+   git clone https://github.com/pswitchy/Rule-Engine/rule-engine-api.git
    ```
 
 2. Navigate into the project directory:
