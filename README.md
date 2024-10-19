@@ -200,7 +200,7 @@ npm test
 
 ## Backend Structure
 
-- `server.js`: Main server file.
+- `app.js`: Main server file.
 - `routes/`: Contains route definitions.
   - `rules.js`: Route for handling rule-related API endpoints.
 - `models/`: Contains database models.
