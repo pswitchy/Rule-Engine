@@ -1,6 +1,6 @@
 # Rule Engine API
 
-A simple API for managing rules, including creating, updating, and deleting rules.
+A simple API for managing rules, including creating, combining, evaluating, updating, and deleting rules.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -53,6 +53,64 @@ To use the API, start the server and send HTTP requests to the endpoints defined
     "rule_id": "generated rule ID"
   }
   ```
+  # Rule Engine API Documentation
+
+## Combine Rules
+
+Combines multiple rules into a single rule.
+
+**Endpoint:** POST /api/rules/combine_rules
+
+### Request Body
+
+```json
+{
+  "rules": [
+    "age > 30 AND department = 'Sales'",
+    "age < 25 AND department = 'Marketing'"
+  ]
+}
+```
+
+### Response
+
+```json
+{
+  "combined_rule_tree": {
+    ...
+  }
+}
+```
+
+## Evaluate Rule
+
+Evaluates a rule against provided data.
+
+**Endpoint:** POST /api/rules/evaluate_rule
+
+### Request Body
+
+```json
+{
+  "rule_tree": {
+    ...
+  },
+  "data": {
+    "age": 35,
+    "department": "Sales",
+    "salary": 60000,
+    "experience": 3
+  }
+}
+```
+
+### Response
+
+```json
+{
+  "result": true
+}
+```
 
 ### Update Rule
 
