@@ -33,7 +33,7 @@ Develop a simple 3-tier rule engine application (Simple UI, API and Backend, Dat
 1. Clone the repository:
    ```bash
    git clone https://github.com/pswitchy/rule-engine-project.git
-   cd rule-engine-project/backend
+   cd rule-engine-project/rule-engine-api
    ```
 
 2. Install dependencies:
@@ -180,7 +180,7 @@ const ruleSchema = new mongoose.Schema({
 
 ### Postman
 
-You can use Postman to test the API endpoints. Import the provided Postman collection (located in the `postman/` directory) and use it to send requests to the backend.
+You can use Postman to test the API endpoints. Import the Postman collection and use it to send requests to the backend.
 
 ### Jest
 
