@@ -18,7 +18,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/pswitchy/rule-engine/rule-engine-ui.git
+   git clone https://github.com/pswitchy/Rule-Engine/rule-engine-ui.git
    ```
 
 2. Navigate to the project directory:
