@@ -192,19 +192,44 @@ npm test
 
 ## Frontend Structure
 
-- `src/`: Contains the source code for the React application.
-  - `components/`: Contains React components.
-    - `CreateRule.js`: Component for creating a new rule.
-  - `App.js`: Main application component.
-  - `index.js`: Entry point for the React application.
+rule-engine-ui/
+├── src/
+│   ├── components/
+│   │   ├── CreateRule.jsx
+│   │   ├── UpdateRule.jsx
+│   │   ├── DeleteRule.jsx
+│   │   ├── CombineRule.jsx
+│   │   ├── EvaluateRule.jsx
+│   │   └── ui/
+│   │       ├── alert.jsx
+│   │       ├── AlertCircle.jsx
+│   │       ├── AlertDescription.jsx
+│   │       └── AlertTitle.jsx
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── package.json
+└── README.md
 
 ## Backend Structure
 
-- `app.js`: Main server file.
-- `routes/`: Contains route definitions.
-  - `rules.js`: Route for handling rule-related API endpoints.
-- `models/`: Contains database models.
-  - `Rule.js`: Mongoose model for rules.
+rule-engine-api/
+├── config/
+│   ├── db.js
+│   └── default.json
+├── models/
+│   ├── Node.js
+│   └── Rule.js
+├── routes/
+│   └── rules.js
+├── tests/
+│   └── rule.test.js
+├── utils/
+│   ├── ruleUtils.js
+│   └── validation.js
+├── app.js
+├── package.json
+└── README.md
 
 ## Contributing
 
