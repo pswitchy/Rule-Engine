@@ -49,7 +49,7 @@ Develop a simple 3-tier rule engine application (Simple UI, API and Backend, Dat
 
 4. Start the backend server:
    ```bash
-   node server.js
+   node app.js
    ```
 
 The backend should now be running on http://localhost:5000.
