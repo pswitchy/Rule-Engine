@@ -37,6 +37,15 @@ function evaluateRule(ruleTree, data) {
         return func(...args);
     }
 }
+function combineRules(ruleTrees, operator = 'AND') {
+    if (ruleTrees.length === 0) return null;
+    if (ruleTrees.length === 1) return ruleTrees[0];
+    
+    return ruleTrees.reduce((combined, current) => {
+        return new Node('operator', operator, combined, current);
+    });
+}
+
 
 function buildAST(tokens) {
     // Placeholder logic to build AST
@@ -82,5 +91,6 @@ module.exports = {
     parseRule,
     buildAST,
     tokenize,
-    evaluateRule
+    evaluateRule,
+    combineRules
 };

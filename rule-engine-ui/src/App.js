@@ -4,6 +4,9 @@ import './index.css';
 import CreateRule from './components/CreateRule';
 import UpdateRule from './components/UpdateRule';
 import DeleteRule from './components/DeleteRule';
+import CombineRule from './components/CombineRule';
+import EvaluateRule from './components/EvaluateRule';
+
 const App = () => {
   return (
     <div className="container mx-auto p-4">
@@ -12,6 +15,8 @@ const App = () => {
         <CreateRule />
         <UpdateRule />
         <DeleteRule />
+        <CombineRule />
+        <EvaluateRule />
       </div>
     </div>
   );
