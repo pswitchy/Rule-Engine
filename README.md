@@ -32,7 +32,7 @@ Develop a simple 3-tier rule engine application (Simple UI, API and Backend, Dat
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/rule-engine-project.git
+   git clone https://github.com/pswitchy/rule-engine-project.git
    cd rule-engine-project/backend
    ```
 
