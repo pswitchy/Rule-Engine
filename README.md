@@ -192,6 +192,7 @@ npm test
 
 ## Frontend Structure
 
+```
 rule-engine-ui/
 ├── src/
 │   ├── components/
@@ -210,9 +211,11 @@ rule-engine-ui/
 │   └── index.js
 ├── package.json
 └── README.md
+```
 
 ## Backend Structure
 
+```
 rule-engine-api/
 ├── config/
 │   ├── db.js
@@ -230,7 +233,7 @@ rule-engine-api/
 ├── app.js
 ├── package.json
 └── README.md
-
+```
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
