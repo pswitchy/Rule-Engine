@@ -203,9 +203,6 @@ rule-engine-ui/
 │   │   ├── EvaluateRule.jsx
 │   │   └── ui/
 │   │       ├── alert.jsx
-│   │       ├── AlertCircle.jsx
-│   │       ├── AlertDescription.jsx
-│   │       └── AlertTitle.jsx
 │   ├── App.js
 │   ├── index.css
 │   └── index.js
